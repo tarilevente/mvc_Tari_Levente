@@ -1,0 +1,5 @@
+RewriteEngine On
+#for CSS-usage. (for else: -d,-l)--> now not required
+RewriteCond %{REQUEST_FILENAME} !-f
+#rule
+RewriteRule ^([^/]+)/? index.php?url=$1 [L,QSA]

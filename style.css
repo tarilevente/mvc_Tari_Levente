@@ -1,0 +1,74 @@
+html {
+    background-color:#fff685;
+    background-image: linear-gradient(-90deg, #fff9B7, #fff185);
+}
+
+.contain {
+    display: flex;
+    margin:0.75rem;
+}
+
+.contain > div {
+    margin-right:1rem;
+}
+
+.contain > div > a {
+    padding:1rem;
+    color:brown;
+    font-weight: bolder;
+    text-decoration:none;
+}
+
+.contain > div > a:link {
+    cursor: pointer;
+}
+.contain > div > a:visited {
+    cursor: pointer;
+}
+.contain > div > a:hover {
+    cursor: pointer;
+    color: darkcyan;
+}
+
+h2 {
+    padding:1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+table {
+    margin-top:1rem;
+    border:solid darkgray;
+    padding:0.25rem;
+    border-collapse:collapse;
+    text-align: left;
+}
+
+table td {
+    padding-top:0.15rem;
+    padding-bottom:0.15rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+}
+
+tbody tr:nth-child(odd){
+    background-color: darkgray;
+}
+
+table thead {
+    background-color: dimgray;
+    color:white;
+}
+
+table thead th {
+    padding:0.25rem;
+}
+
+.error {
+    color: red;
+    background-color: lightyellow;
+    text-align: center;
+    padding:0.75rem;
+    margin:0.25rem;
+}
